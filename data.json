@@ -1,0 +1,51 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": "0",
+        "project_name": "Random Quote Generator",
+        "description": " A program that displays a randomly selected quote each time the user clicks a button.",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://jacoberick.github.io/A-Random-Quote-Generator/",
+        "github_link": "https://github.com/jacoberick/A-Random-Quote-Generator",
+        "image_url": ""
+      },
+      {
+        "id": "1",
+        "project_name": "List Pagination and Filtering",
+        "description": "A program that takes a list of students and pagenates them into organized results.",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://jacoberick.github.io/List-Pagination-and-Filtering/",
+        "github_link": "https://github.com/jacoberick/List-Pagination-and-Filtering",
+        "image_url": ""
+      },
+      {
+        "id": "2",
+        "project_name": "Interactive Form",
+        "description": "An easy to use interactive submition form.",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://jacoberick.github.io/Interactive-Form/",
+        "github_link": "https://github.com/jacoberick/Interactive-Form",
+        "image_url": ""
+      },
+      {
+        "id": "3",
+        "project_name": "OOP Game",
+        "description": "A browser based word guessing game.",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://jacoberick.github.io/OOP-Game/",
+        "github_link": "https://github.com/jacoberick/OOP-Game",
+        "image_url": ""
+      },
+      {
+        "id": "4",
+        "project_name": "Public API Request",
+        "description": "An employee directory created by communicatin with an API.",
+        "technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://jacoberick.github.io/Public-API-Request/",
+        "github_link": "https://github.com/jacoberick/Public-API-Request",
+        "image_url": ""
+      }
+    ]
+  }
+}
