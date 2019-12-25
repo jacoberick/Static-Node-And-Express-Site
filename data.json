@@ -8,7 +8,10 @@
         "technologies": ["HTML", "CSS", "Javascript"],
         "live_link": "https://jacoberick.github.io/A-Random-Quote-Generator/",
         "github_link": "https://github.com/jacoberick/A-Random-Quote-Generator",
-        "image_url": ""
+        "image_url": [
+          "static/images/quoteSquare.jpg",
+          "static/images/quoteLand.jpg"
+        ]
       },
       {
         "id": "1",
@@ -17,7 +20,10 @@
         "technologies": ["HTML", "CSS", "Javascript"],
         "live_link": "https://jacoberick.github.io/List-Pagination-and-Filtering/",
         "github_link": "https://github.com/jacoberick/List-Pagination-and-Filtering",
-        "image_url": ""
+        "image_url": [
+          "static/images/listSquare.jpg",
+          "static/images/listLand.jpg"
+        ]
       },
       {
         "id": "2",
@@ -26,7 +32,10 @@
         "technologies": ["HTML", "CSS", "Javascript"],
         "live_link": "https://jacoberick.github.io/Interactive-Form/",
         "github_link": "https://github.com/jacoberick/Interactive-Form",
-        "image_url": ""
+        "image_url": [
+          "static/images/formSquare.jpg",
+          "static/images/formLand.jpg"
+        ]
       },
       {
         "id": "3",
@@ -35,16 +44,22 @@
         "technologies": ["HTML", "CSS", "Javascript"],
         "live_link": "https://jacoberick.github.io/OOP-Game/",
         "github_link": "https://github.com/jacoberick/OOP-Game",
-        "image_url": ""
+        "image_url": [
+          "static/images/huntSquare.jpg",
+          "static/images/huntLand.jpg"
+        ]
       },
       {
         "id": "4",
         "project_name": "Public API Request",
-        "description": "An employee directory created by communicatin with an API.",
+        "description": "An employee directory created by communicating with an API.",
         "technologies": ["HTML", "CSS", "Javascript"],
         "live_link": "https://jacoberick.github.io/Public-API-Request/",
         "github_link": "https://github.com/jacoberick/Public-API-Request",
-        "image_url": ""
+        "image_url": [
+          "static/images/APISquare.jpg",
+          "static/images/APILand.jpg"
+        ]
       }
     ]
   }
