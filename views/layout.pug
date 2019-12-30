@@ -1,3 +1,4 @@
+//- layout template 
 <!DOCTYPE html>
 html(class="no-js" lang="en" dir="ltr")
   head
@@ -17,14 +18,14 @@ html(class="no-js" lang="en" dir="ltr")
             img.thumbnail(src='/static/images/profilePic.jpg')
           .cell.auto
 
-            //- Add your name here.
+            //- Name
             h5 Jacob White
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
+            //- description
             p.text-light
               | I'm Jacob White, a full stack Javascript developer based in Franklin, TN. I have a passion for creating and keeping things organized!
 
-            //- Add about page route to the href below.
+            //- 'About' page route added 
             a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -32,7 +33,7 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
+          //- mobile sized name
           span.title-bar-title Jacob White
       block content
 

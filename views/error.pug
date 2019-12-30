@@ -1,6 +1,10 @@
+//- error template 
 extend layout 
 
 block content 
-  h1= error.message
-  h2= error.status
-  pre= error.stack
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Home
+  section.error-container
+    h1= error.message
+    h2= error.status
+    pre= error.stack

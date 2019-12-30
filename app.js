@@ -23,16 +23,27 @@ app.get("/about", (req, res) => {
 //renders project pages
 app.get("/project/:id", (req, res, next) => {
   let project = projects.filter(p => +p.id === +req.params.id)[0];
-  res.render("project", { project });
-  let error500 = "Project does not exist";
-  res.status(500).send(error500);
-  console.log(error500);
+  if (project) {
+    res.render("project", { project });
+  } else {
+    let error = new Error("Project not found");
+    error.status = 500;
+    next(error);
+  }
 });
 
+//error Handling
 app.use((req, res, next) => {
-  let error404 = "Path is not found";
-  res.status(404).send(error404);
-  console.log(error404);
+  let error = new Error("Path is not found");
+  error.status = 404;
+  next(error);
+});
+
+app.use((err, req, res, next) => {
+  console.log(`${err.status} — ${err.message}`);
+  res.locals.error = err;
+  res.status(err.status);
+  res.render("error");
 });
 
 // listens to port 3000 and logs a success message

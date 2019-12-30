@@ -1,3 +1,4 @@
+//- project template
 extends layout.pug
 
 block content
@@ -7,22 +8,22 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Project Title
+        //- project Title
         h1 #{project.project_name}
 
-        //- Description
+        //- description
         p.lead.text-light
           | #{project.description}
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        //- Technology being used
+        //- technology being used
         ul
           each technology in project.technologies
             li= technology
 
-        //- Demo and Github Repo links
+        //- demo and Github Repo links
         a.button.expanded(href=`${project.live_link}`) Live Demo
         a.button.expanded(href=`${project.github_link}`) GitHub Repo
 
